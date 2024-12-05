@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 4rem;
+    padding-top: 2rem;
+    text-align: center;
+    background: linear-gradient(145deg, red, blue);
+}
+
+.container{
+    height: 60vmin;
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkslateblue;
+    border-radius: 1rem;
+    margin-left: 70vh;
+    margin-top: 2rem;
+}
+
+h1{
+    font-size: 5rem;
+    color: white;
+    font-family: 'Lobster', cursive;
+}
+
+.game{
+    height: 55vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+    padding-bottom: 5px;
+}
+
+.box{
+    height: 14vmin;
+    width: 12vmin;
+    border-radius: 1rem;
+    border-color: rgb(109, 112, 114);
+    /* box-shadow: 0 0 1rem rgba(89, 190, 252, 2); */
+    font-size: 8vmin;
+    font-weight: 700;
+    background-color: rgb(103, 100, 100);
+    color: white;
+}
+
+.reset{
+    padding: 1rem;
+    font-size: 4vmin;
+    border-radius: 1rem;
+    font-weight: 600;
+    font-family:Tahoma, sans-serif;
+    border-color:darkcyan;
+    color: white;
+    background-color: purple;
+    margin-top: 1rem;
+}
+
+.new-btn{
+    padding: 1rem;
+    font-size: 4vmin;
+    font-weight: 600;
+    font-family:Tahoma, sans-serif;
+    border-radius: 1rem;
+    border-color: darkgray;
+    color: white;
+    background-color: rgb(17, 17, 208);
+}
+
+#msg{
+    color: white;
+    font-size: 3vmin;
+    padding-top: 2rem;
+}
+.msg-container{
+    height: 30vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hide{
+    display: none;
+}
+
+h2{
+    font-size: 2rem;
+    color: white;
+    padding-top: 1rem;
+    font-family: 'Indie Flower', cursive;
+}
